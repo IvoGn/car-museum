@@ -1,0 +1,16 @@
+@mixin card-style {
+    border-radius: $card-border-radius;
+    box-shadow: $card-shadow; 
+}
+  
+@mixin accordion-style {
+    background-color: $accordion-bg-color;
+    border: 1px solid $accordion-border-color;
+      .accordion-button {
+        background: $accordion-bg-color;
+        
+        &:focus {
+        box-shadow: none;
+        }
+    }
+} 

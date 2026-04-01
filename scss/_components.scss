@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+  }
+  
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    @include card-style();
+  }
+ 
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-item {
+    @include accordion-style();
+  }
+  

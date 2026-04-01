@@ -1,0 +1,19 @@
+$our-widths: (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+);
+
+@each $breakpoint, $breakpoint-value in $grid-breakpoints {
+    @if $breakpoint-value > 0 {
+        @media (min-width: $breakpoint-value) {
+            @each $width, $width-value in $our-widths {
+                .w-#{$breakpoint}-#{$width} {
+                    width: $width-value;
+                }
+            }
+        }
+    }
+}

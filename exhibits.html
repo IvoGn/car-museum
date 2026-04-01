@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Exponate</title> 
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/fastlane_logo_white.svg" alt="Fastlane Logo" width="40" class="me-2"/>
+                    <strong>Fastlane</strong>
+                </a>
+                <a href="#" class="btn btn-outline-danger me-3">Tickets</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-main">
+                    <span class="navbar-toggler-icon"></span>
+                </button>               
+                <div class="collapse navbar-collapse" id="nav-main">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Shop</a>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">Ausstellungen</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Dauerausstellung</a></li>
+                                <li><a href="#" class="dropdown-item">Sonderausstellung</a></li>
+                                <li><a href="exhibits.html" class="dropdown-item">Beliebsteste Exponate</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Eventkalender</a></li>
+                                <li><a href="#" class="dropdown-item">Ihr Event veranstalten</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control form-control-sm me-2" type="search" placeholder="Suche" aria-label="Suche">
+                        <button class="btn btn-outline-light btn-sm" type="submit">
+                            <img src="images/search.svg" alt="Suche" width="16"/>
+                        </button>
+                    </form>
+                </div>
+            </div>    
+        </nav>
+    </header>
+
+    <main>
+        <video class="w-100" autoplay loop muted>
+            <source src="images/Mercedes_oldtimer.mp4" type="video/mp4" />
+        </video>
+      
+        <div class="container my-4">
+            <h1 class="text-center border-bottom border-2 pb-2 mb-4">Besucherfavoriten der Ausstellung</h1>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" role="button" data-bs-toggle="modal" data-bs-target="#modalIsetta">
+                        <img src="images/BMW_Isetta.jpg" class="card-img-top" alt="BMW Isetta">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">BMW Isetta</h5>
+                        <p class="card-text text-center">Die BMW Isetta ist das kleinste und leistungsärmste Auto in unserer Ausstellung und trotzdem das Beliebsteste.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">    
+                    <div class="card h-100" role="button" data-bs-toggle="modal" data-bs-target="#modalBMW1938">
+                        <img src="images/BMW_1938.jpg" class="card-img-top" alt="BMW 1938">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">BMW 1938</h5>
+                        <p class="card-text text-center">Der BMW aus dem Jahr 1938 ist ein absolutes Sammlerstück und seit 50 Jahren in unserem Besitz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">    
+                    <div class="card h-100" role="button" data-bs-toggle="modal" data-bs-target="#modalMercedesDTM">
+                        <img src="images/Mercedes_dtm.jpg" class="card-img-top" alt="Mercedes DTM">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Mercedes Sondermodell DTM</h5>
+                        <p class="card-text text-center">Das Sondermodell DTM aus dem Hause Mercedes ist ein absoluter Favorit der Besucher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100" role="button" data-bs-toggle="modal" data-bs-target="#modalVWGolf">
+                        <img src="images/VW_Golf_1977.jpg" class="card-img-top" alt="VW Golf GTI">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">VW Golf GTI</h5>
+                        <p class="card-text text-center">Der erste richtige Hot Hatch aus dem Hause VW.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">  
+                    <div class="card h-100" role="button" data-bs-toggle="modal" data-bs-target="#modalAlfaRomeo">
+                        <img src="images/alfa_romeo_8c.jpg" class="card-img-top" alt="Alfa Romeo 8C Competizione">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Alfa Romeo 8C Competizione</h5>
+                        <p class="card-text text-center">Der Alfa Romeo 8C Competizione ist ein absoluter Meilenstein in der italienischen Automobil-Geschichte.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-12 col-sm-6 col-lg-4">   
+                    <div class="card h-100" role="button" data-bs-toggle="modal" data-bs-target="#modalBMWM8">
+                        <img src="images/BMW_8er_Banner.jpg" class="card-img-top" alt="BMW M8 Competition">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">BMW M8 Competition</h5>
+                        <p class="card-text text-center">Der BMW M8 ist ein absolutes Highlight deutscher Ingenieurskunst.</p>
+                        </div>
+                    </div>  
+                </div>      
+            </div>
+            
+            <div class="modal fade" id="modalIsetta" tabindex="-1" aria-labelledby="modalIsettaLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="modalIsettaLabel">BMW Isetta</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="images/BMW_Isetta.jpg" class="img-fluid mb-3 rounded shadow" alt="BMW Isetta">
+                      <p>Die BMW Isetta ist das kleinste und leistungsärmste Auto in unserer Ausstellung – und trotzdem das beliebteste!</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalBMW1938" tabindex="-1" aria-labelledby="modalBMW1938Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="modalBMW1938Label">BMW 1938</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="images/BMW_1938.jpg" class="img-fluid mb-3 rounded shadow" alt="BMW 1938">
+                      <p>Der BMW aus dem Jahr 1938 ist ein absolutes Sammlerstück und seit 50 Jahren in unserem Besitz.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalMercedesDTM" tabindex="-1" aria-labelledby="modalMercedesDTMLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="modalMercedesDTMLabel">Mercedes Sondermodell DTM</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="images/Mercedes_dtm.jpg" class="img-fluid mb-3 rounded shadow" alt="Mercedes Sondermodell DTM">
+                      <p>Das Sondermodell DTM aus dem Hause Mercedes ist ein absoluter Favorit der Besucher.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalVWGolf" tabindex="-1" aria-labelledby="modalVWGolfLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="modalVWGolfLabel">VW Golf GTI</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="images/VW_Golf_1977.jpg" class="img-fluid mb-3 rounded shadow" alt="VW Golf GTI">
+                      <p>Der erste richtige Hot Hatch aus dem Hause VW.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalAlfaRomeo" tabindex="-1" aria-labelledby="modalAlfaRomeoLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="modalAlfaRomeoLabel">Alfa Romeo 8C Competizione</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="images/alfa_romeo_8c.jpg" class="img-fluid mb-3 rounded shadow" alt="Alfa Romeo 8C Competizione">
+                      <p>Der Alfa Romeo 8C Competizione ist ein absoluter Meilenstein in der italienischen Automobil-Geschichte.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalBMWM8" tabindex="-1" aria-labelledby="modalBMWM8Label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="modalBMWM8Label">BMW M8 Competition</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="images/BMW_8er_Banner.jpg" class="img-fluid mb-3 rounded shadow" alt="BMW M8 Competition">
+                      <p>Der BMW M8 ist ein absolutes Highlight deutscher Ingenieurskunst.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-light py-5 mt-5 border-top">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h2 class="mb-3">Newsletter abonnieren</h2>
+                        <p class="mb-4">Verpassen Sie keine Neuigkeiten, Events oder Sonderausstellungen – bleiben Sie informiert!</p>
+                        <form class="row g-3 justify-content-center">
+                            <div class="col-md-8 col-sm-12">
+                                <input type="email" class="form-control form-control-lg" placeholder="Ihre E-Mail-Adresse" required>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <button type="submit" class="btn btn-danger btn-lg w-100">Abonnieren</button>
+                            </div>
+                        </form>
+                        <small class="text-muted d-block mt-3">Sie können sich jederzeit wieder abmelden.</small>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>
+
+    <footer class="bg-dark text-white mt-5 pt-4 pb-3 border-top">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase">Fastlane</h5>
+                    <p>Das Automuseum für Liebhaber von Klassikern, Sportwagen und Technik. Wir freuen uns auf Ihren Besuch.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6 class="text-uppercase">Rechtliches</h6>
+                    <ul class="list-unstyled my-text-decoration">
+                        <li><a href="#" class="text-white">Impressum</a></li>
+                        <li><a href="#" class="text-white">Datenschutz</a></li>
+                        <li><a href="contact.html" class="text-white">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 text-md-end">
+                    <p class="mb-0">&copy; 2025 Fastlane Museum</p>
+                    <small class="text-muted">Alle Rechte vorbehalten.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>    
+</body>
+
+</html>
